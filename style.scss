@@ -403,105 +403,109 @@
 
 
 .grey_footer_box {
-            display: flex;
-            background-image: url(pic/footer_photo_backround.png);
-            background-size: cover;
-            background-position: left;
 
-            .woman_face_footer_box {
-                        position: relative;
+            .container {
+
                         display: flex;
-                        flex-direction: column;
-                        margin-left: 320px;
+                        background-image: url(pic/footer_photo_backround.png);
+                        background-size: cover;
+                        background-position: left;
 
-                        .grey_footer_woman_text_box {
+                        .woman_face_footer_box {
+                                    position: relative;
                                     display: flex;
-                                    justify-content: center;
+                                    flex-direction: column;
+                                    margin-left: 320px;
 
-                                    .grey_footer_woman_text {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 400;
-                                                font-size: 20px;
-                                                line-height: 24px;
-                                                text-align: center;
-                                                color: #222224;
-                                                margin-top: 30px;
-                                                padding-bottom: 126px;
-                                                width: 360px;
-                                    }
-                        }
-
-
-
-                        .woman_face_footer {
-                                    align-self: center;
-                                    padding-top: 97px;
-                        }
-            }
-
-            .grey_footer_email_box {
-                        position: relative;
-                        margin-right: 320px;
-                        margin-left: 320px;
-
-                        .grey_footer_name {
-                                    padding-top: 150px;
-                                    font-family: 'Lato';
-                                    font-style: normal;
-                                    font-weight: 700;
-                                    font-size: 24px;
-                                    line-height: 167.2%;
-                                    text-align: center;
-                                    color: #222224;
-                        }
-
-                        .grey_footer_text {
-                                    font-family: 'Lato';
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    font-size: 18px;
-                                    line-height: 167.2%;
-                                    text-align: center;
-                                    color: #222224;
-                        }
-
-                        .form_footer_email {
-                                    display: flex;
-                                    margin-top: 32px;
-
-                                    .grey_footer_email {
-                                                background: #E1E1E1;
-                                                border-start-start-radius: 20px;
-                                                border-end-start-radius: 20px;
-                                                padding: 10px 22px;
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 400;
-                                                font-size: 14px;
-                                                line-height: 17px;
+                                    .grey_footer_woman_text_box {
                                                 display: flex;
-                                                align-items: center;
-                                                color: #222224;
-                                                opacity: 0.67;
-                                                margin-bottom: 136px;
-                                                width: 210px;
+                                                justify-content: center;
 
+                                                .grey_footer_woman_text {
+                                                            font-family: 'Lato';
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 20px;
+                                                            line-height: 24px;
+                                                            text-align: center;
+                                                            color: #222224;
+                                                            margin-top: 30px;
+                                                            padding-bottom: 126px;
+                                                            width: 360px;
+                                                }
                                     }
 
-                                    .button_footer {
-                                                border-bottom-right-radius: 20px;
-                                                border-start-end-radius: 20px;
-                                                width: 100px;
-                                                background: #F16D7F;
+
+
+                                    .woman_face_footer {
+                                                align-self: center;
+                                                padding-top: 97px;
+                                    }
+                        }
+
+                        .grey_footer_email_box {
+                                    position: relative;
+                                    margin-right: 320px;
+                                    margin-left: 320px;
+
+                                    .grey_footer_name {
+                                                padding-top: 150px;
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 24px;
+                                                line-height: 167.2%;
+                                                text-align: center;
+                                                color: #222224;
+                                    }
+
+                                    .grey_footer_text {
                                                 font-family: 'Lato';
                                                 font-style: normal;
                                                 font-weight: 400;
-                                                font-size: 14px;
-                                                line-height: 17px;
+                                                font-size: 18px;
+                                                line-height: 167.2%;
                                                 text-align: center;
-                                                color: #FFFFFF;
-                                                margin-bottom: 136px;
+                                                color: #222224;
+                                    }
+
+                                    .form_footer_email {
+                                                display: flex;
+                                                margin-top: 32px;
+
+                                                .grey_footer_email {
+                                                            background: #E1E1E1;
+                                                            border-start-start-radius: 20px;
+                                                            border-end-start-radius: 20px;
+                                                            padding: 10px 22px;
+                                                            font-family: 'Lato';
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 14px;
+                                                            line-height: 17px;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            color: #222224;
+                                                            opacity: 0.67;
+                                                            margin-bottom: 136px;
+                                                            width: 210px;
+
+                                                }
+
+                                                .button_footer {
+                                                            border-bottom-right-radius: 20px;
+                                                            border-start-end-radius: 20px;
+                                                            width: 100px;
+                                                            background: #F16D7F;
+                                                            font-family: 'Lato';
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 14px;
+                                                            line-height: 17px;
+                                                            text-align: center;
+                                                            color: #FFFFFF;
+                                                            margin-bottom: 136px;
+                                                }
                                     }
                         }
             }
