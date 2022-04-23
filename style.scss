@@ -584,10 +584,11 @@
 
 .filter-menu {
             display: flex;
+            padding-top: 51px;
 
             .filter {
                         display: flex;
-                        padding: 51px 320px 0 0;
+                        padding: 0 320px 0 0;
 
                         .filter_text {
                                     font-family: 'Lato';
@@ -604,7 +605,6 @@
                                     display: flex;
                                     box-sizing: border-box;
                                     padding-right: 30px;
-                                    padding-top: 51px;
 
                                     .catalog-menu_text {
                                                 font-family: 'Lato';
@@ -841,6 +841,8 @@
                                     padding: 0;
                                     padding-top: 60px;
                                     padding-bottom: 60px;
+                                    padding-left: 16px;
+                                    padding-right: 16px;
 
                         }
             }
@@ -848,10 +850,10 @@
             .filter-menu {
                         display: flex;
                         justify-content: space-between;
+                        padding-top: 24px;
 
                         .filter {
                                     padding: 0;
-                                    padding-top: 24px;
                         }
             }
 
