@@ -777,41 +777,44 @@
 .header_catalog {
             background: #F8F3F4;
             width: 100%;
-            padding: 60px 230px;
-            box-sizing: border-box;
-            display: flex;
-            justify-content: space-between;
 
-            .catalog_header_name {
-                        font-family: 'Lato';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 24px;
-                        line-height: 29px;
-                        color: #F16D7F;
-            }
-
-            .crumbs {
+            .container {
+                        padding: 60px 230px;
+                        box-sizing: border-box;
                         display: flex;
+                        justify-content: space-between;
 
-                        .crumbs_home {
+                        .catalog_header_name {
                                     font-family: 'Lato';
                                     font-style: normal;
-                                    font-weight: 300;
-                                    font-size: 14px;
-                                    line-height: 17px;
-                                    color: #636363;
-                        }
-
-                        .crumbs_arrivals {
-                                    font-family: 'Lato';
-                                    font-style: normal;
-                                    font-weight: 300;
-                                    font-size: 14px;
-                                    line-height: 17px;
+                                    font-weight: 400;
+                                    font-size: 24px;
+                                    line-height: 29px;
                                     color: #F16D7F;
                         }
 
+                        .crumbs {
+                                    display: flex;
+
+                                    .crumbs_home {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 300;
+                                                font-size: 14px;
+                                                line-height: 17px;
+                                                color: #636363;
+                                    }
+
+                                    .crumbs_arrivals {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 300;
+                                                font-size: 14px;
+                                                line-height: 17px;
+                                                color: #F16D7F;
+                                    }
+
+                        }
             }
 
 

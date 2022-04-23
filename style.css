@@ -739,6 +739,9 @@
 .header_catalog {
   background: #F8F3F4;
   width: 100%;
+}
+
+.header_catalog .container {
   padding: 60px 230px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -750,7 +753,7 @@
           justify-content: space-between;
 }
 
-.header_catalog .catalog_header_name {
+.header_catalog .container .catalog_header_name {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -759,13 +762,13 @@
   color: #F16D7F;
 }
 
-.header_catalog .crumbs {
+.header_catalog .container .crumbs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header_catalog .crumbs .crumbs_home {
+.header_catalog .container .crumbs .crumbs_home {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
@@ -774,7 +777,7 @@
   color: #636363;
 }
 
-.header_catalog .crumbs .crumbs_arrivals {
+.header_catalog .container .crumbs .crumbs_arrivals {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
