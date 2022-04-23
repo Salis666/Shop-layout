@@ -610,17 +610,17 @@
   .black_footer .black_footer_flexBox .pic_center_flex {
     padding: 48px;
   }
-  .grey_footer_box {
+  .grey_footer_box .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .grey_footer_box .background_img {
+  .grey_footer_box .container .background_img {
     width: 768px;
     height: 880px;
   }
-  .grey_footer_box .grey_footer_email_box {
+  .grey_footer_box .container .grey_footer_email_box {
     margin-left: 0;
     margin-right: 0;
     display: -webkit-box;
@@ -631,18 +631,18 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .grey_footer_box .grey_footer_email_box .grey_footer_name {
+  .grey_footer_box .container .grey_footer_email_box .grey_footer_name {
     padding-top: 24px;
   }
-  .grey_footer_box .grey_footer_email_box .form_footer_email {
+  .grey_footer_box .container .grey_footer_email_box .form_footer_email {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .grey_footer_box .woman_face_footer_box {
+  .grey_footer_box .container .woman_face_footer_box {
     margin-left: 0;
   }
-  .grey_footer_box .woman_face_footer_box .grey_footer_woman_text_box .grey_footer_woman_text {
+  .grey_footer_box .container .woman_face_footer_box .grey_footer_woman_text_box .grey_footer_woman_text {
     padding-bottom: 24px;
   }
   .protection .protection_text {
@@ -657,16 +657,16 @@
   .container {
     max-width: 425px;
   }
-  .menu .menu_other_botton {
+  .menu .container .menu_other_botton {
     margin-right: 0;
   }
-  .menu .menu_other_botton .menu_pers_botton {
+  .menu .container .menu_other_botton .menu_pers_botton {
     display: none;
   }
-  .menu .menu_other_botton .menu_basket_botton {
+  .menu .container .menu_other_botton .menu_basket_botton {
     display: none;
   }
-  .menu .menu_logo_magnifier_botton {
+  .menu .container .menu_logo_magnifier_botton {
     margin-left: 16px;
   }
   .photo_logo .under_objective_menu .box_photo_man {
