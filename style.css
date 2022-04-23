@@ -410,11 +410,14 @@
       align-self: center;
 }
 
+.grey_footer_box {
+  background-image: url(pic/footer_photo_backround.png);
+}
+
 .grey_footer_box .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url(pic/footer_photo_backround.png);
   background-size: cover;
   background-position: left;
 }
