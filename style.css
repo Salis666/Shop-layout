@@ -787,7 +787,6 @@
 }
 
 .filter-menu {
-  margin-left: 230px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -843,7 +842,8 @@
 }
 
 .catalog_grid {
-  margin: 64px 230px 48px 230px;
+  margin-top: 64px;
+  margin-bottom: 48px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];

@@ -821,7 +821,6 @@
 }
 
 .filter-menu {
-            margin-left: 230px;
             display: flex;
 
             .filter {
@@ -866,7 +865,8 @@
 
 .catalog_grid {
 
-            margin: 64px 230px 48px 230px;
+            margin-top: 64px;
+            margin-bottom: 48px;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-gap: 30px;
