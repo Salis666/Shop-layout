@@ -882,6 +882,8 @@
 @media (max-width: 425px) {
             .container {
                         max-width: 425px;
+                        padding-left: 8px;
+                        padding-right: 8px;
             }
 
             .menu {
@@ -971,6 +973,37 @@
 
                         .link_box {
                                     align-self: center;
+                        }
+            }
+
+            //страница каталога 425 медиа
+
+            .catalog_grid {
+                        display: flex;
+                        flex-direction: column;
+            }
+
+            .photo_logo {
+                        .container {
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    .catalog_header_name {
+                                                text-align: center;
+                                    }
+
+                                    .crumbs {
+                                                margin-top: 32px;
+                                                align-self: center;
+                                    }
+                        }
+            }
+
+            .filter-menu {
+                        .filter {
+                                    .filter_text {
+                                                display: none;
+                                    }
                         }
             }
 }
