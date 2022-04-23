@@ -742,7 +742,7 @@
 }
 
 .header_catalog .container {
-  padding: 60px 230px;
+  padding: 60px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
