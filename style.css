@@ -4,7 +4,7 @@
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -374,7 +374,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 104px 30px;
+  padding: 104px 15px;
 }
 
 .black_footer .black_footer_flexBox .black_footer_pic {
