@@ -534,6 +534,163 @@
             }
 }
 
+//Страница каталога
+
+.header_catalog {
+            background: #F8F3F4;
+            width: 100%;
+
+            .container {
+                        padding: 60px 0;
+                        box-sizing: border-box;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .catalog_header_name {
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 24px;
+                                    line-height: 29px;
+                                    color: #F16D7F;
+                        }
+
+                        .crumbs {
+                                    display: flex;
+
+                                    .crumbs_home {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 300;
+                                                font-size: 14px;
+                                                line-height: 17px;
+                                                color: #636363;
+                                    }
+
+                                    .crumbs_arrivals {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 300;
+                                                font-size: 14px;
+                                                line-height: 17px;
+                                                color: #F16D7F;
+                                    }
+
+                        }
+            }
+
+
+}
+
+.filter-menu {
+            display: flex;
+
+            .filter {
+                        display: flex;
+                        padding: 51px 320px 0 0;
+
+                        .filter_text {
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    padding-right: 11px;
+                        }
+            }
+
+            .catalog-menu {
+                        box-sizing: border-box;
+                        display: flex;
+
+                        .catalog-menu_box {
+                                    display: flex;
+                                    box-sizing: border-box;
+                                    padding-right: 30px;
+                                    padding-top: 51px;
+
+                                    .catalog-menu_text {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 14px;
+                                                line-height: 17px;
+                                                color: #6F6E6E;
+                                                padding-right: 10px;
+                                    }
+
+                                    .icon_catalog {
+                                                width: 10px;
+                                                display: block;
+                                                align-self: center
+                                    }
+                        }
+            }
+}
+
+.catalog_grid {
+
+            margin-top: 64px;
+            margin-bottom: 48px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+            grid-template-areas:
+                        "man_blue_jaket blackMen_redShirt man_blue_hoodies"
+                        "man_blue_shirt arab_whiteSweater arab_whiteT-shirt"
+                        "arab_whiteShirt arab_black blackMen_greenT-shirt"
+            ;
+
+            .catalog_card {
+                        background: #F8F8F8;
+
+                        .catalog_card_img {
+                                    width: 100%;
+                        }
+
+                        .card_text_box {
+
+                                    padding-left: 18px;
+
+                                    .card_name {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 600;
+                                                font-size: 13px;
+                                                line-height: 16px;
+                                                color: #000000;
+                                                padding-top: 25px;
+                                    }
+
+                                    .card_text {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 300;
+                                                font-size: 14px;
+                                                line-height: 17px;
+                                                color: #5D5D5D;
+                                                max-width: 314px;
+                                                padding-top: 12px;
+                                    }
+
+                                    .card_price {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 16px;
+                                                line-height: 19px;
+                                                color: #F16D7F;
+                                                padding-top: 18px;
+                                                padding-bottom: 20px;
+                                    }
+
+                        }
+            }
+}
+
+.catalog_list_box {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+}
+
 @media (max-width: 768px) {
             .container {
                         max-width: 768px;
@@ -814,161 +971,4 @@
                                     align-self: center;
                         }
             }
-}
-
-//Страница каталога
-
-.header_catalog {
-            background: #F8F3F4;
-            width: 100%;
-
-            .container {
-                        padding: 60px 0;
-                        box-sizing: border-box;
-                        display: flex;
-                        justify-content: space-between;
-
-                        .catalog_header_name {
-                                    font-family: 'Lato';
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    font-size: 24px;
-                                    line-height: 29px;
-                                    color: #F16D7F;
-                        }
-
-                        .crumbs {
-                                    display: flex;
-
-                                    .crumbs_home {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 300;
-                                                font-size: 14px;
-                                                line-height: 17px;
-                                                color: #636363;
-                                    }
-
-                                    .crumbs_arrivals {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 300;
-                                                font-size: 14px;
-                                                line-height: 17px;
-                                                color: #F16D7F;
-                                    }
-
-                        }
-            }
-
-
-}
-
-.filter-menu {
-            display: flex;
-
-            .filter {
-                        display: flex;
-                        padding: 51px 320px 0 0;
-
-                        .filter_text {
-                                    font-family: 'Lato';
-                                    font-style: normal;
-                                    padding-right: 11px;
-                        }
-            }
-
-            .catalog-menu {
-                        box-sizing: border-box;
-                        display: flex;
-
-                        .catalog-menu_box {
-                                    display: flex;
-                                    box-sizing: border-box;
-                                    padding-right: 30px;
-                                    padding-top: 51px;
-
-                                    .catalog-menu_text {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 400;
-                                                font-size: 14px;
-                                                line-height: 17px;
-                                                color: #6F6E6E;
-                                                padding-right: 10px;
-                                    }
-
-                                    .icon_catalog {
-                                                width: 10px;
-                                                display: block;
-                                                align-self: center
-                                    }
-                        }
-            }
-}
-
-.catalog_grid {
-
-            margin-top: 64px;
-            margin-bottom: 48px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 30px;
-            grid-template-areas:
-                        "man_blue_jaket blackMen_redShirt man_blue_hoodies"
-                        "man_blue_shirt arab_whiteSweater arab_whiteT-shirt"
-                        "arab_whiteShirt arab_black blackMen_greenT-shirt"
-            ;
-
-            .catalog_card {
-                        background: #F8F8F8;
-
-                        .catalog_card_img {
-                                    width: 100%;
-                        }
-
-                        .card_text_box {
-
-                                    padding-left: 18px;
-
-                                    .card_name {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 600;
-                                                font-size: 13px;
-                                                line-height: 16px;
-                                                color: #000000;
-                                                padding-top: 25px;
-                                    }
-
-                                    .card_text {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 300;
-                                                font-size: 14px;
-                                                line-height: 17px;
-                                                color: #5D5D5D;
-                                                max-width: 314px;
-                                                padding-top: 12px;
-                                    }
-
-                                    .card_price {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 400;
-                                                font-size: 16px;
-                                                line-height: 19px;
-                                                color: #F16D7F;
-                                                padding-top: 18px;
-                                                padding-bottom: 20px;
-                                    }
-
-                        }
-            }
-}
-
-.catalog_list_box {
-            width: 100%;
-            display: flex;
-            justify-content: center;
 }
