@@ -48,7 +48,7 @@
 }
 
 .photo_logo .under_objective_menu .box_photo_man {
-  width: 800px;
+  width: 50%;
 }
 
 .photo_logo .under_objective_menu .box_photo_man .photo_man {
@@ -57,7 +57,7 @@
 }
 
 .photo_logo .under_objective_menu .box_text_photo_man {
-  width: 800px;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
