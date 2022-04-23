@@ -10,6 +10,9 @@
 
 .menu {
   background: #222222;
+}
+
+.menu .container {
   padding-top: 18px;
   padding-bottom: 18px;
   display: -webkit-box;
@@ -20,23 +23,23 @@
           justify-content: space-between;
 }
 
-.menu .link {
+.menu .container .link {
   text-decoration: none;
 }
 
-.menu .menu_logo_magnifier_botton {
+.menu .container .menu_logo_magnifier_botton {
   margin-left: 230px;
 }
 
-.menu .menu_logo_magnifier_botton .logo_margin {
+.menu .container .menu_logo_magnifier_botton .logo_margin {
   margin-right: 41px;
 }
 
-.menu .menu_other_botton {
+.menu .container .menu_other_botton {
   margin-right: 230px;
 }
 
-.menu .menu_other_botton .other_botton_margin {
+.menu .container .menu_other_botton .other_botton_margin {
   margin-right: 34px;
 }
 

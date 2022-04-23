@@ -12,30 +12,33 @@
 
 .menu {
             background: #222222;
-            padding-top: 18px;
-            padding-bottom: 18px;
-            display: flex;
-            justify-content: space-between;
 
-            .link {
-                        text-decoration: none;
-            }
+            .container {
+                        padding-top: 18px;
+                        padding-bottom: 18px;
+                        display: flex;
+                        justify-content: space-between;
 
-            .menu_logo_magnifier_botton {
-                        margin-left: 230px;
-
-                        .logo_margin {
-                                    margin-right: 41px;
+                        .link {
+                                    text-decoration: none;
                         }
-            }
+
+                        .menu_logo_magnifier_botton {
+                                    margin-left: 230px;
+
+                                    .logo_margin {
+                                                margin-right: 41px;
+                                    }
+                        }
 
 
 
-            .menu_other_botton {
-                        margin-right: 230px;
+                        .menu_other_botton {
+                                    margin-right: 230px;
 
-                        .other_botton_margin {
-                                    margin-right: 34px;
+                                    .other_botton_margin {
+                                                margin-right: 34px;
+                                    }
                         }
             }
 }
