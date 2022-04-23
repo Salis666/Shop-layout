@@ -405,12 +405,12 @@
 .grey_footer_box {
 
             background-image: url(pic/footer_photo_backround.png);
+            background-size: cover;
+            background-position: left;
 
             .container {
 
                         display: flex;
-                        background-size: cover;
-                        background-position: left;
 
                         .woman_face_footer_box {
                                     position: relative;

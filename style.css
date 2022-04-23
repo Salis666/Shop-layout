@@ -412,14 +412,14 @@
 
 .grey_footer_box {
   background-image: url(pic/footer_photo_backround.png);
+  background-size: cover;
+  background-position: left;
 }
 
 .grey_footer_box .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-size: cover;
-  background-position: left;
 }
 
 .grey_footer_box .container .woman_face_footer_box {
