@@ -6,37 +6,36 @@
 //Главная страница
 
 .container {
-            max-width: 1140px;
+            max-width: 1440px;
             margin: 0 auto;
 }
 
 .menu {
             background: #222222;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            display: flex;
+            justify-content: space-between;
 
-            .container {
-                        padding-top: 18px;
-                        padding-bottom: 18px;
-                        display: flex;
-                        justify-content: space-between;
+            .link {
+                        text-decoration: none;
+            }
 
-                        .link {
-                                    text-decoration: none;
+            .menu_logo_magnifier_botton {
+                        margin-left: 230px;
+
+                        .logo_margin {
+                                    margin-right: 41px;
                         }
-
-                        .menu_logo_magnifier_botton {
-
-                                    .logo_margin {
-                                                margin-right: 41px;
-                                    }
-                        }
+            }
 
 
 
-                        .menu_other_botton {
+            .menu_other_botton {
+                        margin-right: 230px;
 
-                                    .other_botton_margin {
-                                                margin-right: 34px;
-                                    }
+                        .other_botton_margin {
+                                    margin-right: 34px;
                         }
             }
 }
@@ -47,7 +46,7 @@
                         display: flex;
 
                         .box_photo_man {
-                                    width: 50%;
+                                    width: 800px;
 
                                     .photo_man {
                                                 width: 100%;
@@ -56,7 +55,7 @@
                         }
 
                         .box_text_photo_man {
-                                    width: 50%;
+                                    width: 800px;
                                     display: flex;
                                     background: #F1E4E6;
 
@@ -365,7 +364,7 @@
                         .pic_center_flex {
                                     display: flex;
                                     flex-direction: column;
-                                    padding: 104px 15px;
+                                    padding: 104px 30px;
                         }
 
                         .black_footer_pic {
@@ -397,6 +396,14 @@
                                     align-self: center;
                         }
 
+                        .black_footer_margin_left {
+                                    padding-left: 230px;
+                        }
+
+                        .black_footer_margin_right {
+                                    padding-right: 230px;
+                        }
+
             }
 
 
@@ -404,109 +411,105 @@
 
 
 .grey_footer_box {
-
+            display: flex;
             background-image: url(pic/footer_photo_backround.png);
             background-size: cover;
             background-position: left;
 
-            .container {
-
+            .woman_face_footer_box {
+                        position: relative;
                         display: flex;
+                        flex-direction: column;
+                        margin-left: 320px;
 
-                        .woman_face_footer_box {
-                                    position: relative;
+                        .grey_footer_woman_text_box {
                                     display: flex;
-                                    flex-direction: column;
+                                    justify-content: center;
 
-                                    .grey_footer_woman_text_box {
-                                                display: flex;
-                                                justify-content: center;
-
-                                                .grey_footer_woman_text {
-                                                            font-family: 'Lato';
-                                                            font-style: normal;
-                                                            font-weight: 400;
-                                                            font-size: 20px;
-                                                            line-height: 24px;
-                                                            text-align: center;
-                                                            color: #222224;
-                                                            margin-top: 30px;
-                                                            padding-bottom: 126px;
-                                                            width: 360px;
-                                                }
-                                    }
-
-
-
-                                    .woman_face_footer {
-                                                align-self: center;
-                                                padding-top: 97px;
-                                    }
-                        }
-
-                        .grey_footer_email_box {
-                                    position: relative;
-                                    margin-right: 320px;
-                                    margin-left: 320px;
-
-                                    .grey_footer_name {
-                                                padding-top: 150px;
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 700;
-                                                font-size: 24px;
-                                                line-height: 167.2%;
-                                                text-align: center;
-                                                color: #222224;
-                                    }
-
-                                    .grey_footer_text {
+                                    .grey_footer_woman_text {
                                                 font-family: 'Lato';
                                                 font-style: normal;
                                                 font-weight: 400;
-                                                font-size: 18px;
-                                                line-height: 167.2%;
+                                                font-size: 20px;
+                                                line-height: 24px;
                                                 text-align: center;
                                                 color: #222224;
+                                                margin-top: 30px;
+                                                padding-bottom: 126px;
+                                                width: 360px;
+                                    }
+                        }
+
+
+
+                        .woman_face_footer {
+                                    align-self: center;
+                                    padding-top: 97px;
+                        }
+            }
+
+            .grey_footer_email_box {
+                        position: relative;
+                        margin-right: 320px;
+                        margin-left: 320px;
+
+                        .grey_footer_name {
+                                    padding-top: 150px;
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    line-height: 167.2%;
+                                    text-align: center;
+                                    color: #222224;
+                        }
+
+                        .grey_footer_text {
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 167.2%;
+                                    text-align: center;
+                                    color: #222224;
+                        }
+
+                        .form_footer_email {
+                                    display: flex;
+                                    margin-top: 32px;
+
+                                    .grey_footer_email {
+                                                background: #E1E1E1;
+                                                border-start-start-radius: 20px;
+                                                border-end-start-radius: 20px;
+                                                padding: 10px 22px;
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 14px;
+                                                line-height: 17px;
+                                                display: flex;
+                                                align-items: center;
+                                                color: #222224;
+                                                opacity: 0.67;
+                                                margin-bottom: 136px;
+                                                width: 210px;
+
                                     }
 
-                                    .form_footer_email {
-                                                display: flex;
-                                                margin-top: 32px;
-
-                                                .grey_footer_email {
-                                                            background: #E1E1E1;
-                                                            border-start-start-radius: 20px;
-                                                            border-end-start-radius: 20px;
-                                                            padding: 10px 22px;
-                                                            font-family: 'Lato';
-                                                            font-style: normal;
-                                                            font-weight: 400;
-                                                            font-size: 14px;
-                                                            line-height: 17px;
-                                                            display: flex;
-                                                            align-items: center;
-                                                            color: #222224;
-                                                            opacity: 0.67;
-                                                            margin-bottom: 136px;
-                                                            width: 210px;
-
-                                                }
-
-                                                .button_footer {
-                                                            border-bottom-right-radius: 20px;
-                                                            border-start-end-radius: 20px;
-                                                            width: 100px;
-                                                            background: #F16D7F;
-                                                            font-family: 'Lato';
-                                                            font-style: normal;
-                                                            font-weight: 400;
-                                                            font-size: 14px;
-                                                            line-height: 17px;
-                                                            text-align: center;
-                                                            color: #FFFFFF;
-                                                            margin-bottom: 136px;
-                                                }
+                                    .button_footer {
+                                                border-bottom-right-radius: 20px;
+                                                border-start-end-radius: 20px;
+                                                width: 100px;
+                                                background: #F16D7F;
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 14px;
+                                                line-height: 17px;
+                                                text-align: center;
+                                                color: #FFFFFF;
+                                                margin-bottom: 136px;
                                     }
                         }
             }
@@ -534,168 +537,9 @@
             }
 }
 
-//Страница каталога
-
-.header_catalog {
-            background: #F8F3F4;
-            width: 100%;
-
-            .container {
-                        padding: 60px 0;
-                        box-sizing: border-box;
-                        display: flex;
-                        justify-content: space-between;
-
-                        .catalog_header_name {
-                                    font-family: 'Lato';
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    font-size: 24px;
-                                    line-height: 29px;
-                                    color: #F16D7F;
-                        }
-
-                        .crumbs {
-                                    display: flex;
-
-                                    .crumbs_home {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 300;
-                                                font-size: 14px;
-                                                line-height: 17px;
-                                                color: #636363;
-                                    }
-
-                                    .crumbs_arrivals {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 300;
-                                                font-size: 14px;
-                                                line-height: 17px;
-                                                color: #F16D7F;
-                                    }
-
-                        }
-            }
-
-
-}
-
-.filter-menu {
-            display: flex;
-            padding-top: 51px;
-
-            .filter {
-                        display: flex;
-                        padding: 0 320px 0 0;
-
-                        .filter_text {
-                                    font-family: 'Lato';
-                                    font-style: normal;
-                                    padding-right: 11px;
-                        }
-            }
-
-            .catalog-menu {
-                        box-sizing: border-box;
-                        display: flex;
-
-                        .catalog-menu_box {
-                                    display: flex;
-                                    box-sizing: border-box;
-                                    padding-right: 30px;
-
-                                    .catalog-menu_text {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 400;
-                                                font-size: 14px;
-                                                line-height: 17px;
-                                                color: #6F6E6E;
-                                                padding-right: 10px;
-                                    }
-
-                                    .icon_catalog {
-                                                width: 10px;
-                                                display: block;
-                                                align-self: center
-                                    }
-                        }
-            }
-}
-
-.catalog_grid {
-
-            margin-top: 64px;
-            margin-bottom: 48px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 30px;
-            grid-template-areas:
-                        "man_blue_jaket blackMen_redShirt man_blue_hoodies"
-                        "man_blue_shirt arab_whiteSweater arab_whiteT-shirt"
-                        "arab_whiteShirt arab_black blackMen_greenT-shirt"
-            ;
-
-            .catalog_card {
-                        background: #F8F8F8;
-
-                        .catalog_card_img {
-                                    width: 100%;
-                        }
-
-                        .card_text_box {
-
-                                    padding-left: 18px;
-
-                                    .card_name {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 600;
-                                                font-size: 13px;
-                                                line-height: 16px;
-                                                color: #000000;
-                                                padding-top: 25px;
-                                    }
-
-                                    .card_text {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 300;
-                                                font-size: 14px;
-                                                line-height: 17px;
-                                                color: #5D5D5D;
-                                                max-width: 314px;
-                                                padding-top: 12px;
-                                    }
-
-                                    .card_price {
-                                                font-family: 'Lato';
-                                                font-style: normal;
-                                                font-weight: 400;
-                                                font-size: 16px;
-                                                line-height: 19px;
-                                                color: #F16D7F;
-                                                padding-top: 18px;
-                                                padding-bottom: 20px;
-                                    }
-
-                        }
-            }
-}
-
-.catalog_list_box {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-}
-
 @media (max-width: 768px) {
             .container {
                         max-width: 768px;
-                        padding-left: 16px;
-                        padding-right: 16px;
             }
 
             .menu {
@@ -783,40 +627,37 @@
             }
 
             .grey_footer_box {
+                        flex-direction: column;
 
-                        .container {
+
+                        .background_img {
+                                    width: 768px;
+                                    height: 880px;
+                        }
+
+                        .grey_footer_email_box {
+                                    margin-left: 0;
+                                    margin-right: 0;
+                                    display: flex;
                                     flex-direction: column;
 
 
-                                    .background_img {
-                                                width: 768px;
-                                                height: 880px;
+                                    .grey_footer_name {
+                                                padding-top: 24px;
                                     }
 
-                                    .grey_footer_email_box {
-                                                margin-left: 0;
-                                                margin-right: 0;
-                                                display: flex;
-                                                flex-direction: column;
-
-
-                                                .grey_footer_name {
-                                                            padding-top: 24px;
-                                                }
-
-                                                .form_footer_email {
-                                                            justify-content: center;
-                                                }
-
+                                    .form_footer_email {
+                                                justify-content: center;
                                     }
 
-                                    .woman_face_footer_box {
-                                                margin-left: 0;
+                        }
 
-                                                .grey_footer_woman_text_box {
-                                                            .grey_footer_woman_text {
-                                                                        padding-bottom: 24px;
-                                                            }
+                        .woman_face_footer_box {
+                                    margin-left: 0;
+
+                                    .grey_footer_woman_text_box {
+                                                .grey_footer_woman_text {
+                                                            padding-bottom: 24px;
                                                 }
                                     }
                         }
@@ -833,77 +674,29 @@
                                     padding: 24px 32px;
                         }
             }
-
-            //страница каталога медиа
-
-            .header_catalog {
-                        .container {
-                                    padding: 0;
-                                    padding-top: 60px;
-                                    padding-bottom: 60px;
-                                    padding-left: 16px;
-                                    padding-right: 16px;
-
-                        }
-            }
-
-            .filter-menu {
-                        display: flex;
-                        justify-content: space-between;
-                        padding-top: 24px;
-
-                        .filter {
-                                    padding: 0;
-                        }
-            }
-
-            .catalog_grid {
-
-                        margin-top: 40px;
-                        margin-bottom: 40px;
-                        display: grid;
-                        grid-template-columns: repeat(2, 1fr);
-                        grid-gap: 16px;
-                        grid-template-areas:
-                                    "man_blue_jaket blackMen_redShirt"
-                                    "man_blue_shirt arab_whiteSweater"
-                                    "arab_whiteT-shirt arab_whiteShirt"
-                                    "arab_black blackMen_greenT-shirt"
-                        ;
-
-                        .man_blue_hoodies {
-                                    display: none;
-                        }
-
-
-            }
 }
 
 @media (max-width: 425px) {
             .container {
                         max-width: 425px;
-                        padding-left: 8px;
-                        padding-right: 8px;
             }
 
             .menu {
-                        .container {
-                                    .menu_other_botton {
+                        .menu_other_botton {
 
-                                                margin-right: 0;
+                                    margin-right: 0;
 
-                                                .menu_pers_botton {
-                                                            display: none;
-                                                }
-
-                                                .menu_basket_botton {
-                                                            display: none;
-                                                }
+                                    .menu_pers_botton {
+                                                display: none;
                                     }
 
-                                    .menu_logo_magnifier_botton {
-                                                margin-left: 16px;
+                                    .menu_basket_botton {
+                                                display: none;
                                     }
+                        }
+
+                        .menu_logo_magnifier_botton {
+                                    margin-left: 16px;
                         }
             }
 
@@ -975,35 +768,152 @@
                                     align-self: center;
                         }
             }
+}
 
-            //страница каталога 425 медиа
+//Страница каталога
 
-            .catalog_grid {
-                        display: flex;
-                        flex-direction: column;
+.header_catalog {
+            background: #F8F3F4;
+            width: 100%;
+            padding: 60px 230px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+
+            .catalog_header_name {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 29px;
+                        color: #F16D7F;
             }
 
-            .photo_logo {
-                        .container {
-                                    display: flex;
-                                    flex-direction: column;
+            .crumbs {
+                        display: flex;
 
-                                    .catalog_header_name {
-                                                text-align: center;
-                                    }
+                        .crumbs_home {
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    color: #636363;
+                        }
 
-                                    .crumbs {
-                                                margin-top: 32px;
-                                                align-self: center;
-                                    }
+                        .crumbs_arrivals {
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    color: #F16D7F;
+                        }
+
+            }
+
+
+}
+
+.filter-menu {
+            margin-left: 230px;
+            display: flex;
+
+            .filter {
+                        display: flex;
+                        padding: 51px 320px 0 0;
+
+                        .filter_text {
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    padding-right: 11px;
                         }
             }
 
-            .filter-menu {
-                        .filter {
-                                    .filter_text {
-                                                display: none;
+            .catalog-menu {
+                        box-sizing: border-box;
+                        display: flex;
+
+                        .catalog-menu_box {
+                                    display: flex;
+                                    box-sizing: border-box;
+                                    padding-right: 30px;
+                                    padding-top: 51px;
+
+                                    .catalog-menu_text {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 14px;
+                                                line-height: 17px;
+                                                color: #6F6E6E;
+                                                padding-right: 10px;
                                     }
+
+                                    .icon_catalog {
+                                                width: 10px;
+                                                display: block;
+                                                align-self: center
+                                    }
+                        }
+            }
+}
+
+.catalog_grid {
+
+            margin: 64px 230px 48px 230px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+            grid-template-areas:
+                        "man_blue_jaket blackMen_redShirt man_blue_hoodies"
+                        "man_blue_shirt arab_whiteSweater arab_whiteT-shirt"
+                        "arab_whiteShirt arab_black blackMen_greenT-shirt"
+            ;
+
+            .catalog_card {
+                        background: #F8F8F8;
+
+                        .catalog_card_img {
+                                    width: 100%;
+                        }
+
+                        .card_text_box {
+
+                                    padding-left: 18px;
+
+                                    .card_name {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 600;
+                                                font-size: 13px;
+                                                line-height: 16px;
+                                                color: #000000;
+                                                padding-top: 25px;
+                                    }
+
+                                    .card_text {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 300;
+                                                font-size: 14px;
+                                                line-height: 17px;
+                                                color: #5D5D5D;
+                                                max-width: 314px;
+                                                padding-top: 12px;
+                                    }
+
+                                    .card_price {
+                                                font-family: 'Lato';
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 16px;
+                                                line-height: 19px;
+                                                color: #F16D7F;
+                                                padding-top: 18px;
+                                                padding-bottom: 20px;
+                                    }
+
                         }
             }
 }
