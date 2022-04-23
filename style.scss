@@ -537,6 +537,8 @@
 @media (max-width: 768px) {
             .container {
                         max-width: 768px;
+                        padding-left: 16px;
+                        padding-right: 16px;
             }
 
             .menu {
@@ -673,6 +675,48 @@
                         .link_box {
                                     padding: 24px 32px;
                         }
+            }
+
+            //страница каталога медиа
+
+            .header_catalog {
+                        .container {
+                                    padding: 0;
+                                    padding-top: 60px;
+                                    padding-bottom: 60px;
+
+                        }
+            }
+
+            .filter-menu {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .filter {
+                                    padding: 0;
+                                    padding-top: 24px;
+                        }
+            }
+
+            .catalog_grid {
+
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-gap: 16px;
+                        grid-template-areas:
+                                    "man_blue_jaket blackMen_redShirt"
+                                    "man_blue_shirt arab_whiteSweater"
+                                    "arab_whiteT-shirt arab_whiteShirt"
+                                    "arab_black blackMen_greenT-shirt"
+                        ;
+
+                        .man_blue_hoodies {
+                                    display: none;
+                        }
+
+
             }
 }
 

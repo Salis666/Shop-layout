@@ -556,6 +556,8 @@
 @media (max-width: 768px) {
   .container {
     max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .menu .menu_logo_magnifier_botton {
     margin-left: 32px;
@@ -650,6 +652,36 @@
   }
   .protection .link_box {
     padding: 24px 32px;
+  }
+  .header_catalog .container {
+    padding: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .filter-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .filter-menu .filter {
+    padding: 0;
+    padding-top: 24px;
+  }
+  .catalog_grid {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+        grid-template-areas: "man_blue_jaket blackMen_redShirt" "man_blue_shirt arab_whiteSweater" "arab_whiteT-shirt arab_whiteShirt" "arab_black blackMen_greenT-shirt";
+  }
+  .catalog_grid .man_blue_hoodies {
+    display: none;
   }
 }
 
