@@ -4,20 +4,20 @@
             }
 
             &__arrowBlack {
-                        position: relative;
 
                         &_posLeft {
+                                    position: absolute;
                                     left: 0px;
-                                    top: 588px;
+                                    top: 388px;
                         }
             }
 
             &__arrowRed {
-                        position: relative;
 
                         &_posRight {
+                                    position: absolute;
                                     left: 1553px;
-                                    top: 588px;
+                                    top: 388px;
                         }
             }
 }

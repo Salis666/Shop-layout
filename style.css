@@ -976,21 +976,15 @@
   position: absolute;
 }
 
-.b-see__arrowBlack {
-  position: relative;
-}
-
 .b-see__arrowBlack_posLeft {
+  position: absolute;
   left: 0px;
-  top: 588px;
-}
-
-.b-see__arrowRed {
-  position: relative;
+  top: 388px;
 }
 
 .b-see__arrowRed_posRight {
+  position: absolute;
   left: 1553px;
-  top: 588px;
+  top: 388px;
 }
 /*# sourceMappingURL=style.css.map */
