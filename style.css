@@ -971,4 +971,26 @@
     display: none;
   }
 }
+
+.b-see_absolute {
+  position: absolute;
+}
+
+.b-see__arrowBlack {
+  position: relative;
+}
+
+.b-see__arrowBlack_posLeft {
+  left: 0px;
+  top: 588px;
+}
+
+.b-see__arrowRed {
+  position: relative;
+}
+
+.b-see__arrowRed_posRight {
+  left: 1553px;
+  top: 588px;
+}
 /*# sourceMappingURL=style.css.map */
