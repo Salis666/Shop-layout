@@ -59,10 +59,11 @@
                                     width: 50%;
                                     display: flex;
                                     background: #F1E4E6;
+                                    background-size: 100vh 100vh;
 
                                     .text_photo_man {
                                                 padding-left: 64px;
-                                                width: 400px;
+                                                max-width: 330px;
                                     }
                         }
 
@@ -691,7 +692,7 @@
             justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
             .container {
                         max-width: 768px;
                         padding-left: 16px;
@@ -712,14 +713,14 @@
                         .under_objective_menu {
 
                                     .box_photo_man {
-                                                width: 384px;
+                                                max-width: 512px;
                                     }
 
                                     .box_text_photo_man {
-                                                width: 384px;
+                                                max-width: 384px;
 
                                                 .text_photo_man {
-                                                            width: 311px;
+                                                            max-width: 169px;
                                                             padding-left: 40px;
 
                                                 }
@@ -733,14 +734,14 @@
             }
 
             .grid_box {
-                        width: 730px;
+                        max-width: 730px;
                         padding-left: 18px;
                         padding-right: 18px;
             }
 
             .product_card_box {
 
-                        width: 730px;
+                        max-width: 730px;
                         padding-left: 18px;
                         padding-right: 18px;
 
@@ -789,7 +790,7 @@
 
 
                                     .background_img {
-                                                width: 768px;
+                                                max-width: 768px;
                                                 height: 880px;
                                     }
 
@@ -879,7 +880,7 @@
             }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 667px) {
             .container {
                         max-width: 425px;
                         padding-left: 8px;
@@ -932,7 +933,7 @@
             .grid_box {
                         display: flex;
                         flex-direction: column;
-                        width: 386px;
+                        max-width: 386px;
 
                         .accesories_pic {
                                     .grid_accesories_more425 {
@@ -946,7 +947,7 @@
             }
 
             .product_card_box {
-                        width: 388px;
+                        max-width: 388px;
 
                         .product_card_gridBox {
                                     display: flex;
