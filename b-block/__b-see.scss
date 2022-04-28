@@ -3,16 +3,16 @@
                         position: absolute;
             }
 
-            .&__arrowBlack {
+            &__arrowBlack {
                         position: relative;
 
-                        .&_posLeft {
+                        &_posLeft {
                                     left: 0px;
                                     top: 588px;
                         }
             }
 
-            .&__arrowRed {
+            &__arrowRed {
                         position: relative;
 
                         &_posRight {
