@@ -1034,7 +1034,6 @@
 .b-pay_absolute {
   position: absolute;
   top: 700px;
-  left: 39.3vh;
 }
 
 .b-pay__nameBlock {
@@ -1369,6 +1368,15 @@
 .b-seePay {
   position: relative;
   height: 1494px;
+}
+
+.b-seePay__container_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 768px) {
