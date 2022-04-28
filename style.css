@@ -997,7 +997,7 @@
   padding-bottom: 365px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .b-see {
     background-image: url(product_pic/woman_white_T-shirt.png);
     background-size: cover;
