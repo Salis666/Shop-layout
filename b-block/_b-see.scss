@@ -1,27 +1,19 @@
 .b-see {
-            &__img {
-                        width: 100%;
-            }
-
-            &_absolute {
-                        position: absolute;
+            &_flex {
+                        display: flex;
+                        justify-content: space-between;
             }
 
             &__arrowBlack {
-
-                        &_posLeft {
-                                    position: absolute;
-                                    left: 0px;
-                                    top: 388px;
-                        }
+                        padding-top: 365px;
+                        padding-bottom: 365px;
             }
 
             &__arrowRed {
-
-                        &_posRight {
-                                    position: absolute;
-                                    left: 1553px;
-                                    top: 388px;
-                        }
+                        padding-top: 365px;
+                        padding-bottom: 365px;
             }
+
+            background-image: url(product_pic/woman_white_T-shirt.png);
+            background-size: cover;
 }

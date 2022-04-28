@@ -972,24 +972,28 @@
   }
 }
 
-.b-see__img {
-  width: 100%;
+.b-see {
+  background-image: url(product_pic/woman_white_T-shirt.png);
+  background-size: cover;
 }
 
-.b-see_absolute {
-  position: absolute;
+.b-see_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.b-see__arrowBlack_posLeft {
-  position: absolute;
-  left: 0px;
-  top: 388px;
+.b-see__arrowBlack {
+  padding-top: 365px;
+  padding-bottom: 365px;
 }
 
-.b-see__arrowRed_posRight {
-  position: absolute;
-  left: 1553px;
-  top: 388px;
+.b-see__arrowRed {
+  padding-top: 365px;
+  padding-bottom: 365px;
 }
 
 .b-pay {
@@ -1003,7 +1007,7 @@
 .b-pay_absolute {
   position: absolute;
   top: 765px;
-  left: 230px;
+  left: 50vh;
 }
 
 .b-seePay {
