@@ -972,6 +972,10 @@
   }
 }
 
+.b-see__img {
+  width: 100%;
+}
+
 .b-see_absolute {
   position: absolute;
 }
@@ -986,5 +990,24 @@
   position: absolute;
   left: 1553px;
   top: 388px;
+}
+
+.b-pay {
+  width: 1141px;
+  height: 601PX;
+  border-width: 1px;
+  border: 1px solid #EAEAEA;
+  background: white;
+}
+
+.b-pay_absolute {
+  position: absolute;
+  top: 765px;
+  left: 230px;
+}
+
+.b-seePay {
+  position: relative;
+  height: 1313px;
 }
 /*# sourceMappingURL=style.css.map */
