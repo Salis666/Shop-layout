@@ -8,8 +8,8 @@
 
             &_absolute {
                         position: absolute;
-                        top: 765px;
-                        left: 50vh;
+                        top: 892px;
+                        left: 40vh;
             }
 
             &__nameBlock {
@@ -23,7 +23,57 @@
                         padding-top: 64.5px;
             }
 
+            &__redLine {
+                        padding-left: 47%;
+                        padding-top: 12px;
+            }
+
+            &__textName {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #4D4D4D;
+                        text-align: center;
+                        padding-top: 12px;
+            }
+
+            &__text {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-align: center;
+                        color: #5E5E5E;
+                        text-align: center;
+                        width: 555px;
+                        padding-left: 292px;
+                        padding-top: 48.5px;
+            }
+
+            &__price {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 24px;
+                        line-height: 29px;
+                        color: #EF5B70;
+                        text-align: center;
+                        padding-top: 32.3px;
+            }
+
+            &__greyLine {
+                        padding-left: 250px;
+                        padding-top: 64.5px;
+            }
+
             &__filter {
+
+                        padding-left: 372px;
+                        padding-top: 64.5px;
+
                         &_flex {
                                     display: flex;
                         }
@@ -39,5 +89,9 @@
 
             &__filterIcon {
                         padding-left: 9px;
+            }
+
+            &__button {
+                        padding: 48px 0 64.5px 464px;
             }
 }

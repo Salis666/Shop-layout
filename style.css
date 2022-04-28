@@ -987,13 +987,13 @@
 }
 
 .b-see__arrowBlack {
-  padding-top: 365px;
-  padding-bottom: 365px;
+  padding-top: 465px;
+  padding-bottom: 465px;
 }
 
 .b-see__arrowRed {
-  padding-top: 365px;
-  padding-bottom: 365px;
+  padding-top: 465px;
+  padding-bottom: 465px;
 }
 
 .b-pay {
@@ -1006,8 +1006,8 @@
 
 .b-pay_absolute {
   position: absolute;
-  top: 765px;
-  left: 50vh;
+  top: 892px;
+  left: 40vh;
 }
 
 .b-pay__nameBlock {
@@ -1018,6 +1018,57 @@
   line-height: 17px;
   color: #F16D7F;
   text-align: center;
+  padding-top: 64.5px;
+}
+
+.b-pay__redLine {
+  padding-left: 47%;
+  padding-top: 12px;
+}
+
+.b-pay__textName {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.b-pay__text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5E5E5E;
+  text-align: center;
+  width: 555px;
+  padding-left: 292px;
+  padding-top: 48.5px;
+}
+
+.b-pay__price {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #EF5B70;
+  text-align: center;
+  padding-top: 32.3px;
+}
+
+.b-pay__greyLine {
+  padding-left: 250px;
+  padding-top: 64.5px;
+}
+
+.b-pay__filter {
+  padding-left: 372px;
   padding-top: 64.5px;
 }
 
@@ -1041,8 +1092,12 @@
   padding-left: 9px;
 }
 
+.b-pay__button {
+  padding: 48px 0 64.5px 464px;
+}
+
 .b-seePay {
   position: relative;
-  height: 1313px;
+  height: 1494px;
 }
 /*# sourceMappingURL=style.css.map */
