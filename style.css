@@ -1007,7 +1007,7 @@
 .b-pay_absolute {
   position: absolute;
   top: 892px;
-  left: 40vh;
+  left: 39.3vh;
 }
 
 .b-pay__nameBlock {
@@ -1099,5 +1099,57 @@
 .b-seePay {
   position: relative;
   height: 1494px;
+}
+
+.b-productCard {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.b-productCard_grid {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "manBlueShirt manBlueHoodies womanBeigeShirt";
+}
+
+.b-productCard__card {
+  background: #F8F8F8;
+}
+
+.b-productCard__name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  padding-top: 24.3px;
+  padding-left: 9px;
+}
+
+.b-productCard__text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5D5D5D;
+  padding-top: 12.65px;
+  padding-left: 9px;
+}
+
+.b-productCard__price {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F16D7F;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  padding-left: 9px;
 }
 /*# sourceMappingURL=style.css.map */
