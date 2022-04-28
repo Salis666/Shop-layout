@@ -1,9 +1,23 @@
 .b-see {
+            &_absolute {
+                        position: absolute;
+            }
+
             .&__arrowBlack {
                         position: relative;
+
+                        .&_posLeft {
+                                    left: 0px;
+                                    top: 588px;
+                        }
             }
 
             .&__arrowRed {
                         position: relative;
+
+                        &_posRight {
+                                    left: 1553px;
+                                    top: 588px;
+                        }
             }
 }
