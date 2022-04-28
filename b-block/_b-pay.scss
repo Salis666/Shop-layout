@@ -8,7 +8,7 @@
 
             &_absolute {
                         position: absolute;
-                        top: 892px;
+                        top: 700px;
                         left: 39.3vh;
             }
 
@@ -93,5 +93,106 @@
 
             &__button {
                         padding: 48px 0 64.5px 464px;
+            }
+}
+
+
+@media (max-width: 768px) {
+            .b-pay {
+
+                        width: 768px;
+                        height: 601PX;
+                        border-width: 1px;
+                        border: 1px solid #EAEAEA;
+                        background: white;
+
+                        &_absolute {
+                                    position: block;
+                                    top: 770px;
+                                    left: 0;
+                        }
+
+                        &__nameBlock {
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    color: #F16D7F;
+                                    text-align: center;
+                                    padding-top: 64.5px;
+                        }
+
+                        &__redLine {
+                                    padding-left: 352px;
+                                    padding-top: 12px;
+                        }
+
+                        &__textName {
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                    color: #4D4D4D;
+                                    text-align: center;
+                                    padding-top: 12px;
+                        }
+
+                        &__text {
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    text-align: center;
+                                    color: #5E5E5E;
+                                    text-align: center;
+                                    width: 555px;
+                                    padding-left: 106px;
+                                    padding-top: 48.5px;
+                        }
+
+                        &__price {
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 24px;
+                                    line-height: 29px;
+                                    color: #EF5B70;
+                                    text-align: center;
+                                    padding-top: 32.3px;
+                        }
+
+                        &__greyLine {
+                                    padding-left: 63px;
+                                    padding-top: 64.5px;
+                        }
+
+                        &__filter {
+
+                                    padding-left: 160px;
+                                    padding-top: 64.5px;
+
+                                    &_flex {
+                                                display: flex;
+                                    }
+                        }
+
+                        &__textBox {
+                                    padding-right: 33px;
+
+                                    &_flex {
+                                                display: flex;
+                                    }
+                        }
+
+                        &__filterIcon {
+                                    padding-left: 9px;
+                        }
+
+                        &__button {
+                                    padding: 48px 0 64.5px 278px;
+                        }
             }
 }

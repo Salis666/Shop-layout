@@ -974,7 +974,7 @@
 
 .b-see {
   background-image: url(product_pic/woman_white_T-shirt.png);
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .b-see_flex {
@@ -987,13 +987,38 @@
 }
 
 .b-see__arrowBlack {
-  padding-top: 465px;
-  padding-bottom: 465px;
+  padding-top: 365px;
+  padding-bottom: 365px;
 }
 
 .b-see__arrowRed {
-  padding-top: 465px;
-  padding-bottom: 465px;
+  padding-top: 365px;
+  padding-bottom: 365px;
+}
+
+@media (max-width: 768px) {
+  .b-see {
+    background-image: url(product_pic/woman_white_T-shirt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .b-see_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .b-see__arrowBlack {
+    padding-top: 360px;
+    padding-bottom: 360px;
+  }
+  .b-see__arrowRed {
+    padding-top: 360px;
+    padding-bottom: 360px;
+  }
 }
 
 .b-pay {
@@ -1006,7 +1031,7 @@
 
 .b-pay_absolute {
   position: absolute;
-  top: 892px;
+  top: 700px;
   left: 39.3vh;
 }
 
@@ -1096,9 +1121,105 @@
   padding: 48px 0 64.5px 464px;
 }
 
+@media (max-width: 768px) {
+  .b-pay {
+    width: 768px;
+    height: 601PX;
+    border-width: 1px;
+    border: 1px solid #EAEAEA;
+    background: white;
+  }
+  .b-pay_absolute {
+    position: block;
+    top: 770px;
+    left: 0;
+  }
+  .b-pay__nameBlock {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    text-align: center;
+    padding-top: 64.5px;
+  }
+  .b-pay__redLine {
+    padding-left: 352px;
+    padding-top: 12px;
+  }
+  .b-pay__textName {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    text-align: center;
+    padding-top: 12px;
+  }
+  .b-pay__text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    text-align: center;
+    width: 555px;
+    padding-left: 106px;
+    padding-top: 48.5px;
+  }
+  .b-pay__price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    text-align: center;
+    padding-top: 32.3px;
+  }
+  .b-pay__greyLine {
+    padding-left: 63px;
+    padding-top: 64.5px;
+  }
+  .b-pay__filter {
+    padding-left: 160px;
+    padding-top: 64.5px;
+  }
+  .b-pay__filter_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .b-pay__textBox {
+    padding-right: 33px;
+  }
+  .b-pay__textBox_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .b-pay__filterIcon {
+    padding-left: 9px;
+  }
+  .b-pay__button {
+    padding: 48px 0 64.5px 278px;
+  }
+}
+
 .b-seePay {
   position: relative;
   height: 1494px;
+}
+
+@media (max-width: 768px) {
+  .b-seePay {
+    position: relative;
+    height: 1375px;
+  }
 }
 
 .b-productCard {
@@ -1151,5 +1272,57 @@
   padding-top: 18px;
   padding-bottom: 20px;
   padding-left: 9px;
+}
+
+@media (max-width: 768px) {
+  .b-productCard {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+  .b-productCard__card_none {
+    display: none;
+  }
+  .b-productCard_grid {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 16px;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "manBlueShirt manBlueHoodies";
+  }
+  .b-productCard__card {
+    background: #F8F8F8;
+  }
+  .b-productCard__name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-top: 24.3px;
+    padding-left: 9px;
+  }
+  .b-productCard__text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-top: 12.65px;
+    padding-left: 9px;
+  }
+  .b-productCard__price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    padding-left: 9px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
