@@ -1010,6 +1010,37 @@
   left: 50vh;
 }
 
+.b-pay__nameBlock {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  text-align: center;
+  padding-top: 64.5px;
+}
+
+.b-pay__filter_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.b-pay__textBox {
+  padding-right: 33px;
+}
+
+.b-pay__textBox_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.b-pay__filterIcon {
+  padding-left: 9px;
+}
+
 .b-seePay {
   position: relative;
   height: 1313px;

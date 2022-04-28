@@ -11,4 +11,33 @@
                         top: 765px;
                         left: 50vh;
             }
+
+            &__nameBlock {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #F16D7F;
+                        text-align: center;
+                        padding-top: 64.5px;
+            }
+
+            &__filter {
+                        &_flex {
+                                    display: flex;
+                        }
+            }
+
+            &__textBox {
+                        padding-right: 33px;
+
+                        &_flex {
+                                    display: flex;
+                        }
+            }
+
+            &__filterIcon {
+                        padding-left: 9px;
+            }
 }
