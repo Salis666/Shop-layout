@@ -1404,6 +1404,10 @@
   background: #F8F8F8;
 }
 
+.b-productCard__img {
+  width: 100%;
+}
+
 .b-productCard__name {
   font-family: 'Lato';
   font-style: normal;
