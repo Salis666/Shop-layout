@@ -47,6 +47,7 @@
                         display: flex;
 
                         .box_photo_man {
+                                    flex-grow: 1;
                                     width: 50%;
 
                                     .photo_man {
@@ -56,6 +57,7 @@
                         }
 
                         .box_text_photo_man {
+                                    flex-grow: 1;
                                     width: 50%;
                                     display: flex;
                                     background: #F1E4E6;
@@ -72,7 +74,7 @@
                                     background-color: #FFFFFF;
                                     width: 232px;
                                     height: 770px;
-                                    left: 1208px;
+                                    right: 0;
                                     top: 0px;
                                     box-sizing: border-box;
                                     max-height: inherit;
@@ -726,9 +728,7 @@
                                                 }
                                     }
 
-                                    .objective_menu {
-                                                left: 536px;
-                                    }
+
                         }
 
             }
@@ -924,9 +924,7 @@
                                                 }
                                     }
 
-                                    .objective_menu {
-                                                left: 193px;
-                                    }
+
                         }
             }
 
