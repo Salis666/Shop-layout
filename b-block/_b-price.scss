@@ -1,0 +1,44 @@
+.b-price {
+
+            &__text {
+                        display: block;
+
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 22px;
+                        line-height: 26px;
+                        color: #575757;
+
+                        &_orange {
+                                    color: #F16D7F
+                        }
+
+                        &_marginLeft {
+                                    margin-left: 6px;
+                        }
+            }
+
+            &__size {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #656565;
+                        border: 1px solid #EAEAEA;
+                        padding: 1.5px 17px;
+
+                        &_marginLeft {
+                                    margin-left: 24px;
+                        }
+            }
+
+            &_flex {
+                        display: flex;
+            }
+
+            &_marginBottom {
+                        margin-bottom: 6px;
+            }
+}

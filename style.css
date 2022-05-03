@@ -1549,4 +1549,68 @@
     padding-left: 9px;
   }
 }
+
+.b-price__text {
+  display: block;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+
+.b-price__text_orange {
+  color: #F16D7F;
+}
+
+.b-price__text_marginLeft {
+  margin-left: 6px;
+}
+
+.b-price__size {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #656565;
+  border: 1px solid #EAEAEA;
+  padding: 1.5px 17px;
+}
+
+.b-price__size_marginLeft {
+  margin-left: 24px;
+}
+
+.b-price_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.b-price_marginBottom {
+  margin-bottom: 6px;
+}
+
+.b-cartPayText__name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+}
+
+.b-cartPayText__name_marginBottom {
+  margin-bottom: 42px;
+}
+
+.b-cartPay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 652px;
+  max-height: 306px;
+}
 /*# sourceMappingURL=style.css.map */
