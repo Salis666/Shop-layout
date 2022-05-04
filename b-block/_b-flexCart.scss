@@ -29,5 +29,9 @@
                                                 margin-top: 64px;
                                     }
                         }
+
+                        @media (max-width: 667px) {
+                                    flex-direction: column;
+                        }
             }
 }

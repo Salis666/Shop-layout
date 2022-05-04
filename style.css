@@ -1560,6 +1560,16 @@
   color: #575757;
 }
 
+@media (max-width: 667px) {
+  .b-price__text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
 .b-price__text_orange {
   color: #F16D7F;
 }
@@ -1579,6 +1589,17 @@
   padding: 1.5px 17px;
 }
 
+@media (max-width: 667px) {
+  .b-price__size {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 1px 9px;
+  }
+}
+
 .b-price__size_marginLeft {
   margin-left: 24px;
 }
@@ -1594,7 +1615,13 @@
 }
 
 .b-cartPayText {
-  padding: 22px 57px 62px 31px;
+  padding: 22px 0 62px 31px;
+}
+
+@media (max-width: 667px) {
+  .b-cartPayText {
+    padding: 13.52px 0 37.67px 17.02px;
+  }
 }
 
 .b-cartPayText__name {
@@ -1606,8 +1633,24 @@
   color: #222222;
 }
 
+@media (max-width: 667px) {
+  .b-cartPayText__name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
 .b-cartPayText__name_marginBottom {
   margin-bottom: 42px;
+}
+
+@media (max-width: 667px) {
+  .b-cartPayText__name_marginBottom {
+    margin-bottom: 25.85px;
+  }
 }
 
 .b-cartPay {
@@ -1625,11 +1668,23 @@
 }
 
 .b-cartPay__close {
-  padding: 28px 22px 260px 57px;
+  padding: 28px 22px 260px 109px;
+}
+
+@media (max-width: 667px) {
+  .b-cartPay__close {
+    padding: 13px 12px 160px 80px;
+  }
 }
 
 .b-cartPay__img {
   max-width: 262px;
+}
+
+@media (max-width: 667px) {
+  .b-cartPay__img {
+    max-width: 143.86px;
+  }
 }
 
 .b-flexCart_flex {
@@ -1675,6 +1730,15 @@
   }
 }
 
+@media (max-width: 667px) {
+  .b-flexCart__pay {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .b-bottonPay_marginTop {
   margin-top: 72px;
 }
@@ -1701,6 +1765,18 @@
   color: #000000;
 }
 
+@media (max-width: 667px) {
+  .b-bottonPay__bottonClear {
+    padding: 9px 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
+}
+
 .b-bottonPay__bottonClear:hover {
   background-color: #A4A4A4;
 }
@@ -1716,6 +1792,18 @@
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+}
+
+@media (max-width: 667px) {
+  .b-bottonPay__bottonContinue {
+    padding: 9px 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
 }
 
 .b-bottonPay__bottonContinue:hover {
@@ -1830,6 +1918,13 @@
   .b-proceed_margin {
     margin-top: 39px;
     margin-left: 15px;
+  }
+}
+
+@media (max-width: 667px) {
+  .b-proceed_margin {
+    margin-top: 48px;
+    margin-left: 0;
   }
 }
 
