@@ -78,7 +78,7 @@
 
             </div>
 
-            <div class="b-flexCart container b-flexCart_marginTop">
+            <div class="b-flexCart container b-flexCart_marginTop b-flexCart_flex">
                         <div class="b-flexCart__cart">
                                     <div class="b-cartPay">
                                                 <img class="b-cartPay__img" src="pic/product/man_blue_hoodies.png"
@@ -151,15 +151,35 @@
                                                             SHOPPING</a>
                                     </div>
                         </div>
-                        <div class="b-flexCart__pay">
+                        <div class="b-flexCart__pay b-flexCart__pay_margin">
                                     <form class="b-payForm b-payForm_flex" action="#">
-                                                <h2 class="b-payForm__name">SHIPPING ADRESS</h2>
-                                                <input class="b-payForm__sityInput" placeholder="Bangladesh">
-                                                <input class="b-payForm__stateInput" placeholder="State">
-                                                <input class="b-payForm__postcodeInput" placeholder="Postcode / Zip">
-                                                <button class="b-payForm__buttonSubmit" type="submit">GET A
+                                                <h2 class="b-payForm__name b-payForm__name_marginButtom">SHIPPING ADRESS
+                                                </h2>
+                                                <input class="b-payForm__sityInput b-payForm__sityInput_marginButtom"
+                                                            placeholder="Bangladesh">
+                                                <input class="b-payForm__stateInput b-payForm__stateInput_marginButtom"
+                                                            placeholder="State">
+                                                <input class="b-payForm__postcodeInput b-payForm__postcodeInput_marginButtom"
+                                                            placeholder="Postcode / Zip">
+                                                <button class="b-payForm__buttonSubmit b-payForm__buttonSubmit_marginButtom"
+                                                            type="submit">GET A
                                                             QUOTE</button>
                                     </form>
+                                    <div class="b-proceed b-proceed_flex b-proceed_margin">
+                                                <div class="b-proceed__subBox b-proceed__subBox_flex">
+                                                            <p class="b-proceed__sub">SUB TOTAL</p>
+                                                            <p class="b-proceed__subPrice">$900</p>
+                                                </div>
+
+                                                <div class="b-proceed__grandBox b-proceed__grandBox_flex">
+                                                            <p class="b-proceed__grand">GRAND TOTAL</p>
+                                                            <p class="b-proceed__grandPrice">$900</p>
+                                                </div>
+
+                                                <img class="b-proceed__line" src="product_pic/grey_line.svg" alt="line">
+                                                <a class="b-proceed__botton b-proceed__botton_margin" href="#">PROCEED
+                                                            TO CHECKOUT</a>
+                                    </div>
                         </div>
             </div>
 

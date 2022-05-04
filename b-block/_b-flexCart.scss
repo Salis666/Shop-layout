@@ -1,7 +1,33 @@
 .b-flexCart {
-            max-width: 652px;
+
+            &_flex {
+                        display: flex;
+                        justify-content: space-between;
+
+                        @media (max-width: 1024px) {
+                                    flex-direction: column;
+                                    align-items: center;
+                        }
+            }
 
             &_marginTop {
                         margin-top: 96px;
+            }
+
+            &_cart {
+                        max-width: 652px;
+
+            }
+
+            &__pay {
+                        @media (max-width: 1024px) {
+                                    display: flex;
+                        }
+
+                        &_margin {
+                                    @media (max-width: 1024px) {
+                                                margin-top: 64px;
+                                    }
+                        }
             }
 }
