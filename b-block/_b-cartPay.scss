@@ -2,4 +2,17 @@
             display: flex;
             max-width: 652px;
             max-height: 306px;
+            box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+
+            &_marginTop {
+                        margin-top: 40px;
+            }
+
+            &__close {
+                        padding: 28px 22px 260px 57px;
+            }
+
+            &__img {
+                        max-width: 262px;
+            }
 }

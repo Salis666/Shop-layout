@@ -78,10 +78,11 @@
 
             </div>
 
-            <div class="b-flexCart">
+            <div class="b-flexCart container b-flexCart_marginTop">
                         <div class="b-flexCart__cart">
                                     <div class="b-cartPay">
-                                                <img src="pic/product/man_blue_hoodies.png" alt="product">
+                                                <img class="b-cartPay__img" src="pic/product/man_blue_hoodies.png"
+                                                            alt="product">
 
                                                 <div class="b-cartPay__text b-cartPayText">
                                                             <h2
@@ -108,9 +109,12 @@
                                                                         </p>
                                                             </div>
                                                 </div>
+                                                <a href="#" class="b-cartPay__close"><img src="pic/closeBig.svg"
+                                                                        alt="close"></a>
                                     </div>
-                                    <div class="b-cartPay">
-                                                <img src="pic/product/blackMen_redShirt.png" alt="product">
+                                    <div class="b-cartPay b-cartPay_marginTop">
+                                                <img class="b-cartPay__img" src="pic/product/blackMen_redShirt.png"
+                                                            alt="product">
                                                 <div class="b-cartPay__text b-cartPayText">
                                                             <h2
                                                                         class="b-cartPayText__name b-cartPayText__name_marginBottom">
@@ -136,10 +140,26 @@
                                                                         </p>
                                                             </div>
                                                 </div>
+                                                <a href="#" class="b-cartPay__close"><img src="pic/closeBig.svg"
+                                                                        alt="close"></a>
                                     </div>
-                                    <div class="b-bottonPay"></div>
+                                    <div class="b-bottonPay b-bottonPay_flex b-bottonPay_marginTop">
+                                                <a class="b-bottonPay__bottonClear" href="index.html">CLEAR SHOPPING
+                                                            CART</a>
+
+                                                <a class="b-bottonPay__bottonContinue" href="index.html">CONTINUE
+                                                            SHOPPING</a>
+                                    </div>
                         </div>
-                        <div class="b-flexCart__payForm"></div>
+                        <div class="b-flexCart__payForm">
+                                    <form action="#">
+                                                <h2>SHIPPING ADRESS</h2>
+                                                <input placeholder="Bangladesh">
+                                                <input placeholder="State">
+                                                <input placeholder="Postcode / Zip">
+                                                <button type="submit">GET A QUOTE</button>
+                                    </form>
+                        </div>
             </div>
 
             <footer>
