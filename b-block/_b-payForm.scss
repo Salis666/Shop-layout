@@ -1,0 +1,44 @@
+$inputwidth: 360px;
+
+$textStyleInput: {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 16px;
+            /* identical to box height */
+
+
+            color: #B1B1B1;
+}
+
+.b-payForm {
+            &_flex {
+                        display: flex;
+                        flex-direction: column;
+            }
+
+            &__name {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #222222;
+            }
+
+            &__sityInput {
+                        padding: 13px 0 16px 17px;
+                        width: $inputwidth;
+            }
+
+            &__stateInput {
+                        padding: 13px 0 16px 17px;
+                        width: $inputwidth;
+            }
+
+            &__postcodeInput {
+                        padding: 13px 0 16px 17px;
+                        width: $inputwidth;
+            }
+}

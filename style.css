@@ -1686,4 +1686,38 @@
 .b-bottonPay__bottonContinue:hover {
   background-color: #A4A4A4;
 }
+
+.b-payForm_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.b-payForm__name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.b-payForm__sityInput {
+  padding: 13px 0 16px 17px;
+  width: 360px;
+}
+
+.b-payForm__stateInput {
+  padding: 13px 0 16px 17px;
+  width: 360px;
+}
+
+.b-payForm__postcodeInput {
+  padding: 13px 0 16px 17px;
+  width: 360px;
+}
 /*# sourceMappingURL=style.css.map */
