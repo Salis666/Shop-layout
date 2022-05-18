@@ -2142,7 +2142,52 @@
 }
 
 .b-perks__list {
-  list-style-position: inside;
-  list-style-image: url("/b-block/li.svg");
+  list-style-position: outside;
+  list-style-image: url("b-block/li.svg");
+  padding-left: 30px;
+}
+
+.b-perks__list li {
+  padding-bottom: 16px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-left: 23px;
+}
+
+.b-perks__list_margin {
+  margin-top: 22px;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 668px) {
+  .b-reg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 668px) {
+  .b-reg__perks {
+    padding-left: 22px;
+  }
+}
+
+@media (min-width: 668px) {
+  .b-reg_margin {
+    margin-bottom: 96px;
+  }
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(fonts/Lato-Light.ttf);
 }
 /*# sourceMappingURL=style.css.map */

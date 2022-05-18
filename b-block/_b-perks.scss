@@ -23,8 +23,25 @@
             }
 
             &__list {
-                        list-style-position: inside;
-                        list-style-image: url("/b-block/li.svg");
+                        list-style-position: outside;
+                        list-style-image: url("b-block/li.svg");
+                        padding-left: 30px;
+
+                        li {
+                                    padding-bottom: 16px;
+                                    font-family: 'Lato';
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #000000;
+                                    padding-left: 23px;
+                        }
+
+                        &_margin {
+                                    margin-top: 22px;
+                                    margin-bottom: 100px;
+                        }
             }
 
 
