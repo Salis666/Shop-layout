@@ -1,0 +1,32 @@
+.b-perks {
+            &_margin {
+                        margin-top: 40px;
+            }
+
+            &__name {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #000000;
+            }
+
+            &__text {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #000000;
+                        padding-top: 32px;
+            }
+
+            &__list {
+                        list-style-position: inside;
+                        list-style-image: url("/b-block/li.svg");
+            }
+
+
+
+}

@@ -2117,4 +2117,32 @@
 .b-regForm__button img {
   padding-left: 20px;
 }
+
+.b-perks_margin {
+  margin-top: 40px;
+}
+
+.b-perks__name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.b-perks__text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-top: 32px;
+}
+
+.b-perks__list {
+  list-style-position: inside;
+  list-style-image: url("/b-block/li.svg");
+}
 /*# sourceMappingURL=style.css.map */
