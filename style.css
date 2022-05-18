@@ -2131,6 +2131,14 @@
   color: #000000;
 }
 
+@media (min-width: 1024px) {
+  .b-perks__name {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
 .b-perks__text {
   font-family: 'Lato';
   font-style: normal;
@@ -2139,6 +2147,14 @@
   line-height: 19px;
   color: #000000;
   padding-top: 32px;
+}
+
+@media (min-width: 1024px) {
+  .b-perks__text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  }
 }
 
 .b-perks__list {
@@ -2156,6 +2172,14 @@
   line-height: 19px;
   color: #000000;
   padding-left: 23px;
+}
+
+@media (min-width: 1024px) {
+  .b-perks__list li {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  }
 }
 
 .b-perks__list_margin {
@@ -2177,6 +2201,12 @@
 @media (min-width: 668px) {
   .b-reg__perks {
     padding-left: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .b-reg__perks {
+    padding-left: 128px;
   }
 }
 
